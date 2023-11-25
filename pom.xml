@@ -3,13 +3,13 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>io.github.wonsunahn</groupId>
-  <artifactId>cs1632-cicd-pipelines-ziz104</artifactId>
+  <artifactId>cs1632-cicd-junit-ziz104</artifactId>
   <version>1.0</version>
   <packaging>jar</packaging>
 
   <name>cs1632-cicd-junit</name>
   <description>An exercise demonstrating CI/CD through github actions.  It uses JUnit for unit testing.</description>
-  <url>https://github.com/CS1632/supplementary-exercise-4-ci-cd-pipelines-snowzhou0104</url>
+  <url>https://github.com/wonsunahn/CS1632_CICD_JUnit</url>
 
   <licenses>
     <license>
@@ -30,22 +30,23 @@
   <scm>
     <connection>scm:git:git://github.com/wonsunahn/CS1632_CICD_JUnit.git</connection>
     <developerConnection>scm:git:ssh://github.com:wonsunahn/CS1632_CICD_JUnit.git</developerConnection>
-    <url>https://github.com/CS1632/supplementary-exercise-4-ci-cd-pipelines-snowzhou0104</url>
-      <distributionManagement>
+    <url>http://github.com/wonsunahn/CS1632_CICD_JUnit/tree/master</url>
+   </scm>
+  
+  <distributionManagement>
     <repository>
       <id>github</id>
       <name>GitHub Apache Maven Packages</name>
-      <url>https://maven.pkg.github.com/CS1632/supplementary-exercise-4-ci-cd-pipelines-wonsunahn</url>
+      <url>https://maven.pkg.github.com/CS1632/supplementary-exercise-4-ci-cd-pipelines-snowzhou0104</url>
     </repository>
   </distributionManagement>
-   </scm>
 
   <properties>
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <jacoco-maven-plugin.version>0.8.4</jacoco-maven-plugin.version>
-    <maven-javadoc-plugin.version>3.6.2</maven-javadoc-plugin.version>
+    <jacoco-maven-plugin.version>0.8.8</jacoco-maven-plugin.version>
+    <maven-javadoc-plugin.version>3.4.1</maven-javadoc-plugin.version>
   </properties>
 
   <dependencies>
@@ -72,7 +73,7 @@
       <plugin>
         <groupId>org.codehaus.mojo</groupId>
         <artifactId>exec-maven-plugin</artifactId>
-        <version>3.1.1</version>
+        <version>3.1.0</version>
         <configuration>
           <mainClass>edu.pitt.cs.RentACatImpl</mainClass>
         </configuration>
