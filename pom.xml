@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>io.github.wonsunahn</groupId>
-  <artifactId>cs1632-cicd-pipelines-ziz104</artifactId>
+  <artifactId>cs1632-cicd-pipelines</artifactId>
   <version>1.0</version>
   <packaging>jar</packaging>
 
@@ -30,21 +30,14 @@
   <scm>
     <connection>scm:git:git://github.com/wonsunahn/CS1632_CICD_JUnit.git</connection>
     <developerConnection>scm:git:ssh://github.com:wonsunahn/CS1632_CICD_JUnit.git</developerConnection>
-    <url>https://github.com/CS1632/supplementary-exercise-4-ci-cd-pipelines-snowzhou0104</url>
-    <distributionManagement>
-    <repository>
-        <id>github</id>
-        <name>GitHub Apache Maven Packages</name>
-        <url>https://github.com/CS1632/supplementary-exercise-4-ci-cd-pipelines-snowzhou0104</url>
-      </repository>
-    </distributionManagement>
+    <url>http://github.com/wonsunahn/CS1632_CICD_JUnit/tree/master</url>
    </scm>
 
   <properties>
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <jacoco-maven-plugin.version>0.8.11</jacoco-maven-plugin.version>
+    <jacoco-maven-plugin.version>0.8.4</jacoco-maven-plugin.version>
     <maven-javadoc-plugin.version>3.6.2</maven-javadoc-plugin.version>
   </properties>
 
