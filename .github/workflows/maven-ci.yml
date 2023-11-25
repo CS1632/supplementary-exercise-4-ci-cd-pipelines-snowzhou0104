@@ -93,12 +93,3 @@ jobs:
       env:
         SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         SONAR_HOST_URL: https://sonarcloud.io
-
-    build:
-    - name: Restore cached build
-    uses: actions/cache@v3
-    with:
-    key: cached-build-${{github.sha}}
-    path: .
-
-    needs: [maven_test]  # Enforces that maven_test runs first
